@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+@font-face {
+    font-family: "Helvatica";
+    src: url("../css/HelveticaNeue.ttc") format("truetype");
+}
+  
+html {
+    font-size:62.5%;
+
+}
+body {
+    font-family: "Helvatica Neue";
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
+}
+
+/*reusable class*/
+.container {
+    max-width:120rem;
+    padding:0 3.2rem;
+    margin: 0 auto;
+}
+
+/*header
+*/
+.nav-div {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 3.8rem auto;
+    background: #FFF;
+}
+.logo {
+    height: 2.2rem;
+}
+.btn {
+    display:inline-block;
+    text-decoration:none;
+    font-size:1.2rem;
+    font-weight:600;
+    background-color: #5D37F3;
+    color:#fff;
+    padding:1.3rem 2.6rem;
+    border-radius:9px;
+}
+.hero-container {
+    background-color: #F3F2FA;
+    padding: 6.2rem 0 0;
+}
+.hero {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading-hero {
+    font-size:5.2rem;
+    font-weight:800;
+    color:#1A1A1F;
+}
+/*//////////////////////////*/
+.section-categories{
+    padding: 4.2rem 0 0;
+}
+.categories {
+    display: flex;
+    justify-content: space-around;
+
+    padding: 0 30rem; 
+}
+.categorie{
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding: 0.8rem 1.5rem;
+    border-radius:15px;
+    border:none;
+}
+/*////////////////////////////*/
+
+.section-blogs{
+    padding: 4.2rem 0 0; 
+}
+.container-blogs {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:2rem;
+
+    
+} 
+.blog{
+    padding:0 2rem;
+}
+.blog-img {
+    width:100%;
+    height:25rem;
+    border-radius: 9px;
+    object-fit: cover;     /* ამის გარაშე შეკუმშავდა სურათს*/
+}
+.blogs-content {
+    display:flex;
+    flex-direction: column;
+    gap:1.3rem;
+
+    padding: 2rem 0;
+}
+.author{
+    font-size:1.6rem;
+    font-weight: 700;
+    color:#1A1A1F;
+}
+.publish-time {
+    font-size:1.2rem;
+    font-weight: 400;
+    color:#85858D;
+}
+.heading-blog {
+    color:#1A1A1F;
+    font-size:1.8rem;
+    font-weight: 700;
+    /*letter-spacing:-0.5px;   ???  */
+    line-height: 1.2;
+}
+.blog-categorie {
+    display:flex;
+    align-items:flex-start;
+    gap:0.8rem;
+}
+.blog-description {
+    font-size:1.5rem;
+    color:#404049;
+    line-height: 1.5;
+}
+
+.link-detail{
+    font-size:1.5rem;
+    font-weight: 700;
+    color:#5D37F3;
+    text-decoration: none;
+
+    display:flex;
+    align-items: center;
+    gap:0.6rem;
+    
+}
+.link-icon{
+    transform:rotate(135deg);
+}
+
+
+
+
+

@@ -1,0 +1,6 @@
+.detail-container {
+    display:grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;         /*ამ ორმა გააცენტა სურათი grid უჯრაში | * | */
+}   
